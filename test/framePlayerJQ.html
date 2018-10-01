@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <title>Home</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+   </head>
+   <body>
+      <h1>Player</h1>
+
+         
+      <div id="player"></div>  
+  <script>
+    
+  </script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+
+$.get('http://chimerako.com/videoUrl.php?url=https://vk.com/video-51189706_456244634', function (data) {
+   
+    var player = new Clappr.Player({source: data, parentId: "#player"});
+});
+
+
+
+});
+</script>
+   </body>
+</html>
+
+</body>
+
+
+
+
